@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(to bottom, #170E13, #2b2b48);
+    padding: 40px 0;
+    font-family: 'Helvetica Neue';
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo a {
+    position: fixed;
+    float: left;
+    font-size: 30px;
+    color: #009FC2;
+    font-weight: 500;
+    font-family: 'Coolvetica';
+    margin-top: -10px;
+    text-decoration: none;
+    transition: all 0.6s ease; /* Smooth transitions */
+}
+/* Add background color and change text color when scrolling */
+.logo a.bg-active {
+    background-color: #00000035; /* Background color when scrolling */
+    color: #ffffff; /* Change text color to white for better contrast */
+    padding: 5px 5px;
+    border-radius: 12px;
+}
+
+.header nav {
+    float: right;
+}
+.header nav ul {
+    list-style: none;
+}
+.header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.header nav ul li a:hover {
+    color: #009FC2;
+}
+
+
+
+/* Main Section */
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    background: linear-gradient(to top, #170E13, #2b2b48);
+}
+.main-section .container{
+    height: 680px;
+}
+
+.main-section .intro h1 { /*the howdy text*/
+    font-size: 30px;
+    font-weight: 100;
+}
+.main-section .intro h1 span { /*jenish sahukhal*/
+    background: linear-gradient(to right, #009FC2, #60609e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 750;
+    font-size: 40px;
+}
+.main-section .intro h2 { /*web designer*/
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+.main-section .intro p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.intro-img {
+    position: absolute;
+    right: 200px;
+    bottom: 380px;
+}
+
+.intro-img img {
+    width: 350px; 
+    border-radius: 20px;
+    opacity: 45%;
+}
+
+.main-section .buttons .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 25px;
+    margin-top: 30px;
+    background: #009FC2;
+    color: #111;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.4s ease;
+}
+.main-section .buttons .btn:hover {
+    background: #fff;
+    color: #111;
+    transform: scale(1.05);
+}
+
+
+
+.main-section .stats {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 48px;
+    margin-top: 75px;
+    margin-left: 0px;
+}
+.stat1{
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    transition: all 0.4s ease;
+    font-weight: bold;
+}
+.stat {
+    text-align: center;
+    padding: 20px;
+    transition: all 0.4s ease;
+}
+.stat:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.main-section .intro h3{ /*Simplifying Your Path to Digital Success*/
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 50px;
+    font-family: 'Monument';
+    background: linear-gradient(to bottom, #1297b5, #1f1f1f);
+    margin-bottom: 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+    padding: 10px 180px;
+}
+
+
+/*services section*/
+.services{
+    background: linear-gradient(to bottom, #170E13, #2b2b48);
+    padding: 60px 0;
+    text-align: center;
+}
+.services .container{
+    height: 600px;
+}
+
+
+.services h4{
+    font-size: 32px;
+    font-family: 'Monument';
+    margin-top: 35px;
+    background: linear-gradient(to bottom, #009FC2, #0D0A0B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.4s ease;
+}
+.services h4:hover{
+    transform: scale(1.05);
+    background: linear-gradient(to bottom, #1cd5ff, #1f1f1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p2{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+    padding: 10px 260px;
+}
+.services ul{
+    margin-top: 15px;
+}
+.services li {
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #b2b2b2;
+}
+
+
+
+/* About Me Section */
+.about-me {
+    background: linear-gradient(to top, #170E13, #2B2A47  );
+    padding: 60px 0;
+    text-align: center;
+}
+.about-me h5 {
+    font-size: 38px;
+    font-family: 'Monument';
+    background: linear-gradient(to bottom, #1cd5ff, #1f1f1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p3{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+    padding: 10px 260px;
+}
+
+
+.contact-info{
+    margin-top: 55px;
+}
+
+.outro-img{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.contact-info a {
+    color: #009FC2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.contact-info a:hover {
+    color: #fff;
+}
+.footer{
+    margin-bottom: 0px;
+}
+
+
