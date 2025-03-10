@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-
 // Add background effect on scroll
 window.addEventListener("scroll", function () {
     const logo = document.querySelector(".logo a");
